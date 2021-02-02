@@ -1,1 +1,1 @@
-export { default as GuestList } from "./guestList/GuestList";
+export { default as MovieSearch } from "./guestList/MovieSearch";

@@ -1,15 +1,9 @@
 interface Guest {
-  guests: { name: string }[];
+  movies: { name: string }[];
 }
 
-const Display: React.FC<Guest> = ({ guests }) => {
-  return (
-    <>
-      {guests.map((guest) => (
-        <li key={guest.name}>{guest.name}</li>
-      ))}
-    </>
-  );
+const Display: React.FC = () => {
+  return <></>;
 };
 
 export default Display;

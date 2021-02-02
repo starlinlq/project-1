@@ -1,10 +1,10 @@
 import ReactDOM from "react-dom";
-import { GuestList } from "./components";
+import { MovieSearch } from "./components";
 
 const App = () => {
   return (
     <div>
-      <GuestList />
+      <MovieSearch />
     </div>
   );
 };
